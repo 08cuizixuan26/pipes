@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>StampGis Pipeline WebGL</title>
+  <script src="config/stamp_core_config.js"></script>
+  <script src="config/custom_config.js"></script>
+  <script src="openlayers4mvt/ol-debug.js"></script>
+  <script src="openlayers4mvt/mapbox-streets-v6-style.js"></script>
+  <script src="shapefile.js"></script>
+  <script src="webgl.js"></script>
+  <script src="config/menuconfig.js"></script>
+  <style>
+    @import url(Assets/widgets.css);
+    @import url(Assets/navigation.css);
+
+    body {
+      cursor: url("Assets/1.cur"), default;
+    }
+
+    #slider {
+      position: absolute;
+      left: 50%;
+      top: 0px;
+      background-color: #D3D3D3;
+      width: 5px;
+      height: 100%;
+      z-index: 9999;
+    }
+
+    #slider:hover {
+      cursor: ew-resize;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

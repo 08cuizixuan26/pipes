@@ -1,0 +1,41 @@
+.cesium-svgPath-svg{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}
+.stamp-button{display:inline-block;position:relative;background:#303336;border:1px solid #444;color:#edffff;fill:#edffff;border-radius:4px;padding:5px 12px;margin:2px 3px;cursor:pointer;overflow:hidden;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+.stamp-button:focus{color:#fff;fill:#fff;border-color:#ea4;outline:0}
+.stamp-button:hover{color:#fff;fill:#fff;background:#48b;border-color:#aef;box-shadow:0 0 8px #fff}
+.stamp-button:active{color:#000;fill:#000;background:#adf;border-color:#fff;box-shadow:0 0 8px #fff}
+.stamp-button-disabled,.stamp-button-disabled:active,.stamp-button-disabled:focus,.stamp-button-disabled:hover,.stamp-button:disabled{background:#303336;border-color:#444;color:#646464;fill:#646464;box-shadow:none;cursor:default}
+.stamp-button option{background-color:#000;color:#eee}
+.stamp-button option:disabled{color:#777}
+.stamp-button input,.stamp-button label{cursor:pointer}
+.stamp-button input{vertical-align:sub}
+.stamp-performanceDisplay-defaultContainer{position:absolute;top:50px;right:10px;text-align:right}
+.stamp-performanceDisplay{background-color:rgba(40,40,40,.7);padding:7px;border-radius:5px;border:1px solid #444;font:bold 12px sans-serif}
+.stamp-performanceDisplay-fps{color:#e52}
+.stamp-performanceDisplay-throttled{color:#a42}
+.stamp-performanceDisplay-ms{color:#de3}
+.stamp-widget{position:relative}
+.stamp-widget,.stamp-widget canvas{width:100%;height:100%;touch-action:none}
+.stamp-widget-credits{display:block;position:absolute;bottom:0;left:0;color:#fff;font-size:10px;text-shadow:0 0 2px #000;padding-right:5px}
+.stamp-widget-credits a,.stamp-widget-credits a:visited{color:#fff}
+.stamp-widget-errorPanel{position:absolute;top:0;right:0;bottom:0;left:0;text-align:center;background:rgba(0,0,0,.7);z-index:99999}
+.stamp-widget-errorPanel:before{display:inline-block;vertical-align:middle;height:100%;content:""}
+.stamp-widget-errorPanel-content{width:75%;max-width:500px;display:inline-block;text-align:left;vertical-align:middle;border:1px solid #510c00;border-radius:7px;background-color:#f0d9d5;font-size:14px;color:#510c00}
+.stamp-widget-errorPanel-content.expanded{max-width:75%}
+.stamp-widget-errorPanel-header{font-size:18px;font-family:"Open Sans",Verdana,Geneva,sans-serif;background:#d69d93;border-bottom:2px solid #510c00;padding-bottom:10px;border-radius:3px 3px 0 0;padding:15px}
+.stamp-widget-errorPanel-scroll{overflow:auto;font-family:"Open Sans",Verdana,Geneva,sans-serif;white-space:pre-wrap;padding:0 15px;margin:10px 0 20px 0}
+.stamp-widget-errorPanel-buttonPanel{padding:0 15px;margin:10px 0 20px 0;text-align:right}
+.stamp-widget-errorPanel-buttonPanel button{border-color:#510c00;background:#d69d93;color:#202020;margin:0}
+.stamp-widget-errorPanel-buttonPanel button:focus{border-color:#510c00;background:#f0d9d5;color:#510c00}
+.stamp-widget-errorPanel-buttonPanel button:hover{border-color:#510c00;background:#f0d9d5;color:#510c00}
+.stamp-widget-errorPanel-buttonPanel button:active{border-color:#510c00;background:#b17b72;color:#510c00}
+.stamp-widget-errorPanel-more-details{text-decoration:underline;cursor:pointer}
+.stamp-widget-errorPanel-more-details:hover{color:#2b0700}
+.major-viewer{font-family:sans-serif;font-size:16px;overflow:hidden;display:block;position:relative;top:0;left:0;width:100%;height:100%}
+.viewer-widgetContainer{width:100%;height:100%}
+.viewer-bottom{display:block;position:absolute;bottom:0;left:0;right:0;padding-right:5px}
+.major-viewer .stamp-widget-credits{display:inline;position:static;bottom:auto;left:auto;padding-right:0;color:#fff;font-size:10px;text-shadow:0 0 2px #000}
+.major-viewer-half{font-family:sans-serif;font-size:16px;overflow:hidden;display:block;position:relative;top:0;left:0;width:50%;height:100%;float: left;}
+.minor-viewer-half{font-family:sans-serif;font-size:16px;overflow:hidden;display:block;position:relative;width:50%;height:100%;float: left;}
+.minor-viewer-hide{display:none;}
+.minor-viewer-quarter{z-index:1;font-family:sans-serif;font-size:16px;overflow:hidden;display:block;position:absolute;width:400px;height:400px;right:5px;bottom:5px;}
+.overlay {position: absolute;}

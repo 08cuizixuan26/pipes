@@ -1,0 +1,82 @@
+@headBackgroundColor:rgba(16, 34, 119, 0.7);
+@hoverBackgroundColor:rgba(255, 255, 255, 0.3);
+@transparentColor: transparent;
+@textColor: #FFF;
+
+/deep/ .el-dialog{
+    width: 40%;
+    margin-top:0 !important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/deep/ .el-form-item__content{
+    margin-right: 10px;
+}
+
+.el-checkbox{
+    color: #FFF;
+}
+.mini-button{
+    width: 28px;
+    margin-left:8px;
+}
+
+.smallInputWidthAfter{
+    width: calc(100% - 40px) !important;
+}
+.inputWidthAfter{
+    width: calc(50% - 40px) !important;
+}
+
+.middle-text{
+    width: 60px;
+    margin: auto 12px auto 20px;
+}
+
+.normal-input{
+    width: calc(100% - 80px);
+}
+.property-select{
+    width: calc(100% - 115px);
+}
+
+.el-table{
+    width: calc(100% - 2px) !important;
+    background-color: @transparentColor !important;
+}
+
+/deep/ .el-table th{
+    padding: 8px 2px;
+    background-color: @headBackgroundColor !important;
+    color: @textColor !important;
+}
+
+/deep/ .el-table tr {
+    background-color: @transparentColor !important;
+    color: @textColor !important;
+}
+
+/deep/ .el-table td{
+    padding: 2px !important;
+    height: 28px;
+    background-color: @transparentColor !important;
+}
+
+/deep/ .el-table__body tr:hover > td{
+    background-color: @hoverBackgroundColor !important;
+}
+
+.innerTableClass{
+    position: absolute;
+    top: 2px;
+    padding: 0px;
+    height:28px;
+}
+
+.inner-color-btn{
+    position: absolute;
+    top: 5px;
+    width: 28px;
+    height:28px;
+}
